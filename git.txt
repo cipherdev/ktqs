@@ -1,17 +1,17 @@
 #Created githup
 -	cd ~/.ssh
--	ssh-keygen –t rsa –C “youraddress@email.com”
--	Open file “id_rsa.pub” in folder “C:\Users\<Tên>\.ssh”, add key: https://github.com/settings/ssh  (Vào Add SSH key)
--	Check: ssh –T git@github.com (show a message “Hi username! You’ve successfully authenticated, but Github does not provide shell access.” is success.
-	Install personal information
--	git config --global user.name “Name user”
--	git config --global user.email “Adress your email”
+-	ssh-keygen -t rsa -C "youraddress@email.com"
+-	Open file "id_rsa.pub" in folder "C:\Users\<name>\.ssh", add key: https://github.com/settings/ssh  (Add SSH key)
+-	Check: ssh -T git@github.com (show a message "Hi username! You've successfully authenticated, but Github does not provide shell access." is success.
+0	Install personal information
+-	git config --global user.name "Name user"
+-	git config --global user.email "Adress your email"
 1.	Down source code:
 git clone https://github.com/leanhhuy/abc.git
 2.	Up Source
 -	initialization git
 git init
 git add test.c
-git commit –m “up test.c”
-git push –u origin master
+git commit -m "up test.c"
+git push -u origin master
 #done
