@@ -1,7 +1,7 @@
 #Created githup
 -	cd ~/.ssh
 -	ssh-keygen –t rsa –C “youraddress@email.com”
--	Open file “id_rsa.pub” in folder “C:\Users\<Tên>\.ssh”, copy nội dung vào trong Github account của bạn trên máy chủ: https://github.com/settings/ssh  (Vào Add SSH key)
+-	Open file “id_rsa.pub” in folder “C:\Users\<Tên>\.ssh”, add key: https://github.com/settings/ssh  (Vào Add SSH key)
 -	Check: ssh –T git@github.com (show a message “Hi username! You’ve successfully authenticated, but Github does not provide shell access.” is success.
 	Install personal information
 -	git config --global user.name “Name user”
